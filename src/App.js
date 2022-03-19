@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import { Badge } from '@chakra-ui/react'
 
 function App() {
   return (
@@ -9,6 +10,8 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <p>this is a test paragraph.</p>
+        <Badge fontSize={"20px"}>test Badge</Badge>
         <a
           className="App-link"
           href="https://reactjs.org"
